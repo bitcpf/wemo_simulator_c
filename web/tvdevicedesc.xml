@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<root xmlns="urn:Belkin:device-1-0">
+  <specVersion>
+    <major>1</major>
+    <minor>0</minor>
+  </specVersion>
+  <device>
+<deviceType>urn:Belkin:device:controllee:1</deviceType>
+<friendlyName>Luma</friendlyName>
+    <manufacturer>Belkin International Inc.</manufacturer>
+    <manufacturerURL>http://www.belkin.com</manufacturerURL>
+    <modelDescription>Belkin Plugin Socket 1.0</modelDescription>
+    <modelName>Socket</modelName>
+    <modelNumber>1.0</modelNumber>
+    <modelURL>http://www.belkin.com/plugin/</modelURL>
+<serialNumber>221332K1100068</serialNumber>
+<UDN>uuid:Socket-1_0-221332K1100068</UDN>
+    <UPC>123456789</UPC>
+    <iconList> 
+      <icon> 
+        <mimetype>jpg</mimetype> 
+        <width>100</width> 
+        <height>100</height> 
+        <depth>100</depth> 
+         <url>icon.jpg</url> 
+      </icon> 
+    </iconList>
+    <serviceList>
+      <service>
+        <serviceType>urn:schemas-upnp-org:service:tvcontrol:1</serviceType>
+        <serviceId>urn:upnp-org:serviceId:tvcontrol1</serviceId>
+        <controlURL>/upnp/control/tvcontrol1</controlURL>
+        <eventSubURL>/upnp/event/tvcontrol1</eventSubURL>
+        <SCPDURL>/tvcontrolSCPD.xml</SCPDURL>
+      </service>
+      <service>
+        <serviceType>urn:schemas-upnp-org:service:tvpicture:1</serviceType>
+        <serviceId>urn:upnp-org:serviceId:tvpicture1</serviceId>
+        <controlURL>/upnp/control/tvpicture1</controlURL>
+        <eventSubURL>/upnp/event/tvpicture1</eventSubURL>
+        <SCPDURL>/tvpictureSCPD.xml</SCPDURL>
+      </service>
+      <service>
+        <serviceType>urn:Belkin:service:basicevent:1</serviceType>
+        <serviceId>urn:Belkin:serviceId:basicevent1</serviceId>
+        <controlURL>/upnp/control/basicevent1</controlURL>
+        <eventSubURL>/upnp/event/basicevent1</eventSubURL>
+        <SCPDURL>/eventservice.xml</SCPDURL>
+      </service>
+    </serviceList>
+   <presentationURL>/tvdevicepres.html</presentationURL>
+</device>
+</root>
